@@ -1,0 +1,9 @@
+Langkah Langkah menginstall react js expo
+
+1. Web install react js expo : https://code.tutsplus.com/tutorials/how-to-create-a-react-native-android-app--cms-35636
+
+2. note js yang didukung hanya versi max 16
+
+3. langkah terakhir untuk membuka lewat smartphone expo start --tunnel
+
+4. Cara buat file apk dengan expo : https://dev.to/chinmaymhatre/how-to-generate-apk-using-react-native-expo-kae
