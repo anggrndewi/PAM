@@ -1,2 +1,4 @@
-import Homes from "./Home";
+import Homes from "../page/Home";
 
+
+export {Homes}
