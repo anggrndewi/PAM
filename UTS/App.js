@@ -1,5 +1,5 @@
 import react, { Component } from "react";
-import { Text, View, Image, StyleSheet, Dimensions, StatusBar } from "react-native";
+import { Text, View, Image, StyleSheet, Dimensions, StatusBar, ScrollView } from "react-native";
 import frame from './assets/images/awan.jpg';
 import info from "./assets/Informasi/info";
 import KomponenPay from "./assets/Home/KomponenPay";
@@ -9,7 +9,7 @@ import Itempromo from './assets/Home/Itempromo';
 class Home extends Component {
   render(){
     return(
-      <View>
+      <ScrollView>
         <StatusBar barStyle='dark-content' translucent backgroundColor="rgba(0, 0, 0, 0)" />
         <Image style={styles.frame} source={frame} />
         <Text style={styles.greeting}>{info.judul}</Text>
@@ -26,7 +26,7 @@ class Home extends Component {
 
         <View style={styles.pemisah}></View>
         <Itempromo />
-      </View>
+      </ScrollView>
     );
   }
 }
