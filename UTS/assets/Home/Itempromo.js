@@ -6,16 +6,21 @@ const Itempromo = () => {
     return (
         <View style={styles.item}>
             <PropPromo image={require('../images/food.jpg')} text="Makanan Enak banget"/>
+            <PropPromo image={require('../images/food.jpg')} text="Makanan Enak banget"/>
+            <PropPromo image={require('../images/food.jpg')} text="Makanan Enak banget"/>
+            <PropPromo image={require('../images/food.jpg')} text="Makanan Enak banget"/>
+            <PropPromo image={require('../images/food.jpg')} text="Makanan Enak banget"/>
         </View>
     )
 }
 
 const styles= StyleSheet.create ({
     item: {
-      marginHorizontal:18,
-      width:'100%', 
-      flexWrap:"wrap", 
-      flexDirection: "row",
+        flexDirection:'row',
+        justifyContent: "space-between",
+        marginTop:15,
+        flexWrap: "wrap",
+        width:'100%',
     },
 })
 

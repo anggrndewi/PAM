@@ -2,7 +2,7 @@ import { useLinkProps } from "@react-navigation/native";
 import { Component } from "react";
 import { View, Text, StyleSheet, Dimensions, Image } from "react-native";
 
-const{width}= Dimensions.get('window')
+const{width}= Dimensions.get('screen')
 const PropPromo = (props) => {
     return (
         <View style={styles.item}>
@@ -19,7 +19,7 @@ const styles= StyleSheet.create ({
       backgroundColor:'white',
       elevation:4, 
       borderRadius:8, 
-      width:width,
+      width:width /2-27,
       marginRight:18,
       marginBottom: 18,
     },
@@ -27,8 +27,8 @@ const styles= StyleSheet.create ({
     promoimage: {
         height:width/2-27,
         width:width /2,
-        borderTopLeftRadius: 10,
-        borderTopRightRadius: 10,
+        borderTopLeftRadius: 8,
+        borderTopRightRadius: 8,
     },
 
     textpromo : {
