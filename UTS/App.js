@@ -21,8 +21,10 @@ class Home extends Component {
           <View style={styles.line}></View>
           <KomponenPay />
         </View>
-        
         <Fitur />
+
+        <View style={styles.pemisah}></View>
+        <Itempromo />
       </View>
     );
   }
@@ -68,7 +70,14 @@ const styles = StyleSheet.create({
     alignSelf: "center",
     top:50,
     color:"#383838",
-  }
+  },
+
+  pemisah:{
+    width: width,
+    height:15,
+    backgroundColor:'#ededed',
+    marginVertical:15,
+  },
 
 })
 export default Home;
