@@ -4,6 +4,7 @@ import frame from './assets/images/awan.jpg';
 import info from "./assets/Informasi/info";
 import KomponenPay from "./assets/Home/KomponenPay";
 import Fitur from "./assets/Home/Fitur";
+import Itempromo from './assets/Home/Itempromo';
 
 class Home extends Component {
   render(){
