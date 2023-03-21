@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {Text, View} from 'react-native';
 
-class Aktivitas extends Component {
+class Inbox extends Component {
     render () {
         return(
             <View>
@@ -10,4 +10,5 @@ class Aktivitas extends Component {
         )
     }
 }
-export default Aktivitas;
+
+export default Inbox;
