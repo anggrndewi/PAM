@@ -3,7 +3,7 @@ import { Text, View, Image, StyleSheet, Dimensions, StatusBar } from "react-nati
 import frame from './assets/images/awan.jpg';
 import info from "./assets/Informasi/info";
 import KomponenPay from "./assets/Home/KomponenPay";
-import Fitur from "./assets/Home/Fitur";
+import Fitur from "./Fitur";
 
 class Home extends Component {
   render(){
@@ -20,9 +20,8 @@ class Home extends Component {
           </View>
           <View style={styles.line}></View>
           <KomponenPay />
+          <Fitur />
         </View>
-        
-        <Fitur />
       </View>
     );
   }
@@ -32,7 +31,7 @@ const {height, width} = Dimensions.get('window')
 const styles = StyleSheet.create({
   wrapper: {
     marginHorizontal:18,
-    height: 120,
+    height: 150,
     marginTop: -60,
     backgroundColor: "white",
     elevation:4,
