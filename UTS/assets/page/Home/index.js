@@ -1,10 +1,11 @@
 import react, { Component } from "react";
 import { Text, View, Image, StyleSheet, Dimensions, StatusBar, ScrollView } from "react-native";
-import frame from 'assets\images\awan.jpg';
+import frame from './assets/images/awan.jpg';
 import info from "./assets/Informasi/info";
-import KomponenPay from "./assets/komponen/komponenpay";
-import Fitur from "./assets/komponen/fitur";
-import Itempromo from "./assets/komponen/itempromo";
+import KomponenPay from "./assets/Home/KomponenPay";
+import Fitur from "./assets/Home/Fitur";
+import Itempromo from './assets/Home/Itempromo';
+import Routes from './assets/config';
 
 class Homes extends Component {
   render(){

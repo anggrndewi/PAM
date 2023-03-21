@@ -1,13 +1,17 @@
 import react, { Component } from "react";
-import { Text, View, Image, StyleSheet, Dimensions, StatusBar } from "react-native";
+import { Text, View, Image, StyleSheet, Dimensions, StatusBar, ScrollView } from "react-native";
 import frame from './assets/images/awan.jpg';
 import info from "./assets/Informasi/info";
 import KomponenPay from "./assets/Home/KomponenPay";
+import Fitur from "./assets/Home/Fitur";
+import Itempromo from './assets/Home/Itempromo';
+import Routes from './assets/config/routes';
 
 class Home extends Component {
   render(){
     return(
-      <View>
+      
+      <ScrollView>
         <StatusBar barStyle='dark-content' translucent backgroundColor="rgba(0, 0, 0, 0)" />
         <Image style={styles.frame} source={frame} />
         <Text style={styles.greeting}>{info.judul}</Text>
@@ -20,7 +24,11 @@ class Home extends Component {
           <View style={styles.line}></View>
           <KomponenPay />
         </View>
-      </View>
+        <Fitur />
+
+        <View style={styles.pemisah}></View>
+        <Itempromo />
+      </ScrollView>
     );
   }
 }
@@ -29,7 +37,7 @@ const {height, width} = Dimensions.get('window')
 const styles = StyleSheet.create({
   wrapper: {
     marginHorizontal:18,
-    height: 150,
+    height: 120,
     marginTop: -60,
     backgroundColor: "white",
     elevation:4,
@@ -65,7 +73,14 @@ const styles = StyleSheet.create({
     alignSelf: "center",
     top:50,
     color:"#383838",
-  }
+  },
+
+  pemisah:{
+    width: width,
+    height:15,
+    backgroundColor:'#ededed',
+    marginVertical:15,
+  },
 
 })
 export default Home;

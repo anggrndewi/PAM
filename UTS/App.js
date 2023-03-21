@@ -6,9 +6,10 @@ import KomponenPay from "./assets/Home/KomponenPay";
 import Fitur from "./assets/Home/Fitur";
 import Itempromo from './assets/Home/Itempromo';
 
-class Home extends Component {
+class Homes extends Component {
   render(){
     return(
+      
       <ScrollView>
         <StatusBar barStyle='dark-content' translucent backgroundColor="rgba(0, 0, 0, 0)" />
         <Image style={styles.frame} source={frame} />
@@ -81,4 +82,4 @@ const styles = StyleSheet.create({
   },
 
 })
-export default Home;
+export default Homes;
