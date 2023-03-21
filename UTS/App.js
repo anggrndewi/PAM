@@ -6,28 +6,12 @@ import KomponenPay from "./assets/Home/KomponenPay";
 import Fitur from "./assets/Home/Fitur";
 import Itempromo from './assets/Home/Itempromo';
 
+import Routes from './assets/config/routes'
 class Homes extends Component {
   render(){
     return(
       
-      <ScrollView>
-        <StatusBar barStyle='dark-content' translucent backgroundColor="rgba(0, 0, 0, 0)" />
-        <Image style={styles.frame} source={frame} />
-        <Text style={styles.greeting}>{info.judul}</Text>
-
-        <View style={styles.wrapper}>
-          <View style={styles.textwrapper}>
-            <Text>{info.judul}</Text>
-            <Text>{info.judul}</Text>
-          </View>
-          <View style={styles.line}></View>
-          <KomponenPay />
-        </View>
-        <Fitur />
-
-        <View style={styles.pemisah}></View>
-        <Itempromo />
-      </ScrollView>
+      <Routes />
     );
   }
 }
