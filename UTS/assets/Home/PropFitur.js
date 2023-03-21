@@ -1,7 +1,6 @@
 import { Component } from "react";
 import { Image, Text, View, StyleSheet} from "react-native";
 
-
 class PropFitur extends Component {
     render(){
         return (
