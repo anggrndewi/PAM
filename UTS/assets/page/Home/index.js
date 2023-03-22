@@ -5,6 +5,7 @@ import info from "../../Informasi/info";
 import KomponenPay from "../../Home/KomponenPay";
 import Fitur from "../../Home/Fitur";
 import Itempromo from '../../Home/Itempromo';
+import Footer from "../../Footer/footer";
 
 class Homes extends Component {
   render(){
@@ -27,6 +28,7 @@ class Homes extends Component {
 
         <View style={styles.pemisah}></View>
         <Itempromo />
+        <Footer />
       </ScrollView>
     );
   }
