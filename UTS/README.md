@@ -9,3 +9,5 @@ Pada halaman awal berisikan beberapa layanan yang ditawarkan kepada pengunjung s
 
   ## Tampilan Aktivitas
   <image src="assets\images\1679475529621.jpg" width="150">
+    
+Pada halaman aktivitas berisikan rekomendasi wisata di berbagai daerah dan menampilkan keunikan wisata-wisata tersebut
