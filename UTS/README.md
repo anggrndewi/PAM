@@ -4,6 +4,7 @@
 
 ## Tampilan Halaman Awal
 <image src="assets\images\1679475529773.jpg" width="150">       <image src="assets\images\1679475529698.jpg" width="150">
+
 Pada halaman awal berisikan beberapa layanan yang ditawarkan kepada pengunjung seperti, sewa kendaraan, pengiriman barang, pengisian pulsa, layanan dokter dan lain lain. Selain itu, aplikasi ini menampilkan beberapa rekomendasi wisata yang menyenangkan dan terpercaya.
 
   ## Tampilan Aktivitas
