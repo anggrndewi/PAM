@@ -11,3 +11,7 @@ Pada halaman awal berisikan beberapa layanan yang ditawarkan kepada pengunjung s
   <image src="assets\images\1679475529621.jpg" width="150">
     
 Pada halaman aktivitas berisikan rekomendasi wisata di berbagai daerah dan menampilkan keunikan wisata-wisata tersebut
+
+## Links Download apk
+
+* [Pariwisata.YGY](https://expo.dev/accounts/anggrndewi/projects/UTS/builds/0199c384-15f6-4f0d-b25b-f641577dfa3a)
